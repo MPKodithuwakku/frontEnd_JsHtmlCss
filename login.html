@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VillgeCeylon.lk</title>
+
+        <style>
+            .navbar{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+    background-color:   rgb(66, 83, 66);
+    height: 60px;
+    width: 100%; 
+       
+}
+.navbar a, .ourp{
+    width: 200px;
+    height: 20px;
+    background-color:  rgb(66, 83, 66);
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    float: left; 
+    
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+    width: 200px;
+    height: 30px;
+   
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover, .ourp:hover{
+    background-color:rgb(135, 146, 135);
+    display: block;
+}
+.dropdowntab{
+    display: none;
+    position: absolute;
+ 
+}
+.dropdowntab a{
+    float: none;
+    display: block;
+    text-align: left;
+}
+.dropdowntab a:hover{
+    background-color:  rgb(135, 146, 135);
+}
+.dropdown:hover .dropdowntab {
+    display: block;
+}
+.ourp {
+    border: 0px;
+ 
+}
+.navbar > a{
+    text-align: center;
+    align-items: center;
+}
+
+footer{
+    background-color: rgb(66, 83, 66);
+}
+footer > p{
+  margin-left: 300px;
+}
+        </style>
+
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="home.html" style="color: black;" >Home</a>
+            <div class="dropdown">
+                <button class="ourp" style="color: black">Our Products</button>
+                <div class="dropdowntab">
+                    <a href="ourproducts.html" style="color: black">Kithul Treacle</a>
+                    <a href="ourproducts.html" style="color: black">Cinnomon</a>
+                    <a href="ourproducts.html" style="color: black">Cardamom</a>
+                    <a href="ourproducts.html" style="color: black">blackpaper</a>
+                </div>
+            </div>
+            <a href="home.html" style="color: black" >Shop</a>
+            <a href="login.html" style="color: black">Login</a>         
+        </div>
+
+        <h3>Register with us for Sesonal Discounts</h3>
+        <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname"> <br> <br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname"> <br><br>
+
+            <input type="radio" id="male" name="malefemale" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="malefemale" value="Female">
+            <label for="female">Female</label> <br> <br>
+
+            <input type="checkbox" id="x" name="x" value="x">
+            <label for="x">I have visited this website before</label> <br>
+            <input type="checkbox" id="y" name="y" value="y">
+            <label for="y">I have already experienced some products from here</label> <br>
+            <input type="checkbox" id="z" name="x" value="z">
+            <label for="z">I like organic products</label> <br>
+            <input type="checkbox" id="c" name="c" value="c">
+            <label for="c">This is my first time</label> <br> <br> <br>
+            
+            <input type="submit" value="Submit">
+
+        </form>
+
+        <footer>
+            <p>Copyright &copy; 2024. Village Ceylon.lk. All Right Recerved</p>
+        </footer>
+
+    </body>
+</html>
